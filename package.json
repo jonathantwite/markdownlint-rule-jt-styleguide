@@ -1,0 +1,32 @@
+{
+  "name": "markdownlint-rule-jt-styleguide",
+  "version": "0.0.1",
+  "description": "Style rules for markdownlint",
+  "main": "rules.js",
+  "scripts": {
+    "test": "jest",
+    "parse": "node .\\dev-testing\\parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathantwite/markdownlint-rule-jt-styleguide.git"
+  },
+  "keywords": [
+    "markdownlint-rule"
+  ],
+  "author": "Twite, Jonathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathantwite/markdownlint-rule-jt-styleguide/issues"
+  },
+  "homepage": "https://github.com/jonathantwite/markdownlint-rule-jt-styleguide#readme",
+  "dependencies": {
+    "markdownlint-rule-helpers": "^0.9.0"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "jest": "^25.4.0",
+    "markdown-it": "^10.0.0",
+    "markdownlint": "^0.20.2"
+  }
+}
