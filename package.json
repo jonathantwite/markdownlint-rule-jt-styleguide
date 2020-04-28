@@ -5,7 +5,9 @@
   "main": "rules.js",
   "scripts": {
     "test": "jest",
-    "parse": "node .\\dev-testing\\parse.js"
+    "parse": "node .\\src\\dev-testing\\parse.js",
+    "lint": "eslint \"src/**/*.js\" \"tests/**/*.js\"",
+    "lint:fix": "eslint \"src/**/*.js\" \"tests/**/*.js\" --fix"
   },
   "repository": {
     "type": "git",
